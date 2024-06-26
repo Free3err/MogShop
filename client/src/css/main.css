@@ -1,0 +1,29 @@
+* {
+    font-family: 'Montserrat';
+    color: #edf4e0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #8de4af;
+}
+
+.main_wrapper {
+    max-width: 1340px;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_wrapper {
+    max-width: 1340px;
+    margin: 0 auto;
+}

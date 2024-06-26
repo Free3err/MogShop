@@ -1,0 +1,22 @@
+.header_wrapper {
+    margin: 0 auto;
+    max-width: 1340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        color: #073868;
+    }
+}
+
+.logo {
+    transition: all 0.25s;
+    padding: 10px 0;
+    font-size: 36px;
+    font-weight: 800;
+
+    &:hover {
+        color: #edf4e0;
+    }
+}

@@ -1,14 +1,14 @@
 import Header from '../components/header/Header';
 
-const Catalog = () => {
+const NotFound = () => {
     return (
         <>
             <Header />
             <main>
-                <div className="main_wrapper">Catalog</div>
+                <div className="main_wrapper">Not Found</div>
             </main>
         </>
     );
 };
 
-export default Catalog;
+export default NotFound;
