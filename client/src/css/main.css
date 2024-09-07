@@ -1,6 +1,6 @@
 * {
     font-family: 'Montserrat';
-    color: #edf4e0;
+    color: #4E4E4C;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +8,10 @@
 }
 
 body {
-    background: #8de4af;
+    background-image: url('../assets/img/jordan_barret.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
 }
 
 .main_wrapper {

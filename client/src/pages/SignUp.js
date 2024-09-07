@@ -7,6 +7,7 @@ import '../css/signUp.css';
 
 const SignUp = () => {
     const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
     const [password_1, setPassword_1] = useState('');
     const [password_2, setPassword_2] = useState('');
 
@@ -26,7 +27,8 @@ const SignUp = () => {
             errorSignal(errorElement);
         } else {
             const data = {
-                username: username,
+                username,
+                email,
                 password: password_1,
             };
 
@@ -75,6 +77,14 @@ const SignUp = () => {
                                 value={username}
                                 onChange={(event) => {
                                     setUsername(event.target.value);
+                                }}
+                            ></input>
+                            <input
+                                type="email"
+                                placeholder="Email"
+                                value={email}
+                                onChange={(event) => {
+                                    setEmail(event.target.value);
                                 }}
                             ></input>
                             <input

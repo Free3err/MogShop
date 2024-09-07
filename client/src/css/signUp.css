@@ -8,7 +8,7 @@
 
 .signUp_form {
     padding: 30px 30px 20px;
-    background: #5cdb94;
+    background: rgba(255, 255, 255, 0.25);
     width: 275px;
     margin: 20px auto;
     display: flex;
@@ -39,26 +39,32 @@
     button {
         font-size: 15px;
         cursor: pointer;
-        background-color: #073868;
+        background-color: #6A8BA3;
+        color: #E3DAC9;
 
         &:hover {
-            background-color: #114b85;
+            background-color: #4a5f6e;
         }
     }
 }
 
 .title_signup {
     font-size: 20px;
+    color: wheat;
+
+    strong {
+        color: wheat;
+    }
 }
 
 .link {
     font-size: 15px;
-    color: #3472c2;
+    color: #073868;
     text-decoration: underline;
     text-underline-offset: 3px;
 
     &:hover {
-        color: #5295ed;
+        color: #0e5398;
     }
 }
 
